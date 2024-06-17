@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --fonte-principal: "Inter";
+    --vermelho: #8E2424;
+    --cinza: #667085;
+    --branco: #FFFFFF;
+    --preto: #101828;
+}
+
+* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+.cabecalho__logo {
+    display:flex;
+    margin: 0 5em;
+}
+
+.cabecalho__link{
+    display: flex;
+    margin-right: auto;
+}
+.cabecalho__botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5em;
+}
+
+.nomeEmpresa {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0.5em;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0 2em 0;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    cursor: pointer;
+}
+
+.botaoEntrar {
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 3em;
+}
+
+.botaoCadastrar {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--vermelho);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.9em;
+}
+
+.container__principal {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__miniTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho);
+    padding: 5em 0 1em;
+}
+
+.subtitulo1 {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    padding: 0.5em;
+    border-radius: 20px;
+    background-color: #8E24240D
+}
+
+.titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.descricao {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza);
+    text-align: center;
+}
+
+.container__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: grid;
+    padding: 3em;
+    
+}
+
+.numero {
+    font-family: var(--fonte-principal);
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin-bottom: 0.1em;
+}
+
+.subinfo {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.paragrafoInfo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-top: 0.1em;
+}
+
+.equipe {
+    width: 93.75em;
+    margin-top: 2em;
+}
+
+.container__vagas {
+    display: grid;
+}
+
+.container__area {
+    display: flex;
+    margin: 3em 0 1em 16em;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card__vaga {
+    margin-left: 20em;
+    border: 1px solid #EAECF0;
+    border-radius: 15px;
+    width: 60em;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.areaVaga {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.vaga {
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-top: 0.5em;
+}
+
+.descricao__vaga {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    padding-top: 0.5em;
+}
+
+.container__colab {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.colaboradores {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #C3191908;
+    border-radius: 10px;
+    width: 90em;
+    padding: 3em;
+}
+
+.subtitulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.opniaoColab {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 0em;
+    text-align: center;
+}
+
+.img__colab {
+    padding: 1em;
+    margin-left: 31.5em;
+    margin-bottom: 0;
+}
+
+.nomeColab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.funcaoColab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.rodape {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFB;
+}
+
+.rodape__texto {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.rodape__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    text-align: center;
+    margin: 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.input__email {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    padding: 1em;
+    border: 1px solid #D0D5DD;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 1em 0 5em;
+}
+
+.rodape__direito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direitos {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
+    margin-top: 0em;
+}
+
+@media screen and (max-width:750px) {
+    .nomeEmpresa {
+        display: none;
+    }
+
+    .logo {
+        width: 3em;
+        margin:0 1em;
+    }
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho__logo {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cabecalho__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link {
+        margin: 0 1em;
+        padding: 1em;
+        font-size: 12px;
+    }
+
+    .cabecalho__botao {
+        padding: 0;
+        margin: 0;
+    }
+
+    .botaoEntrar {
+        padding: 0.5em;
+        font-size: 15px;
+        margin: 0 2em;
+    }
+
+    .botaoCadastrar {
+        font-size: 15px;
+    }
+
+    .descricao {
+        margin: 0 1em;
+        padding: 0 2em;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container__info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .numero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paragrafoInfo {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .container__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .equipe {
+        width: 700px;
+
+    } 
+    
+    .container__area {
+        margin: 1em 5em;
+    }
+
+    .card__vaga {
+        margin: 1em 5em;
+        width: 70%;
+    }
+
+    .container__colab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .colaboradores {
+        width: 90%;
+    }
+
+    .opniaoColab {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .img__colab {
+        padding: 1em;
+        margin-left: 16.5em;
+        margin-bottom: 0;
+    }
+
+    .rodape{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .rodape__titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape__texto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rodape__paragrafo {
+        font-size: 15px;
+        padding: 1em 2em;
+    }
+
+    .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em ;
+    }
+
+    .input__email {
+        margin-left: 0;
+        padding: 0.5em;
+        font-size: 15px;
+    }
+
+    .direitos {
+        text-align: center;
+        padding: 1em 0;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .cabecalho__link {
+        display: none;
+    }
+
+    .logo {
+        width: 35px;
+    }
+
+    .nomeEmpresa {
+        display: none;
+    }
+    .cabecalho__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1em;
+    }
+
+    .cabecalho__botao{
+        margin: 0 0 0 1em;
+    }
+
+    .botaoCadastrar {
+        font-size: 12px;
+       
+    }
+
+    .botaoEntrar {
+        font-size: 12px;
+        
+    }
+
+    .titulo {
+        font-size: 25px;
+        padding: 0 1em;
+        text-align: center;
+    }
+
+    .descricao {
+        font-size: 15px;
+        padding: 0 2.5em;
+        text-align: center;
+    }
+
+    .container__area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container__vagas {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .container__info {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .numero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .subinfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .paragrafoInfo {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .container__img {
+        display: none;
+    }
+
+    .container__miniTitulo {
+        margin: 1em 0;
+    }
+
+    .container__area {
+        margin: 1em;
+    }
+    .areaVaga {
+        margin:0
+    }
+
+    .card__vaga {
+        margin: 1em 1em;
+        width: 80%;
+    }
+
+    .container__colab {
+        display: none;
+    }
+
+    .rodape{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .rodape__titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape__texto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rodape__paragrafo {
+        font-size: 15px;
+        padding: 1em 2em;
+    }
+
+    .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em ;
+    }
+
+    .input__email {
+        margin-left: 0;
+        padding: 0.5em;
+        font-size: 15px;
+    }
+
+    .direitos {
+        text-align: center;
+        padding: 1em 0;
+        font-size: 16px;
+    }
+}
